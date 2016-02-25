@@ -1,0 +1,7 @@
+# File types
+.DS_Store
+*.map
+*.log
+
+# Folders
+/node_modules

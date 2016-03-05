@@ -2,7 +2,7 @@
   "name": "skeleton-sass",
   "version": "1.0.0",
   "description": "Transform skeleton.css to sass",
-  "main": "skeleton.css",
+  "main": "skeleton.sass",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nndung179/skeleton-sass.git"
@@ -26,7 +26,7 @@
     "clean": "rm -rf css",
     "build": "npm run clean && npm run build-sass",
     "build-sass": "node-sass --output-style expanded --source-map true --output css/ skeleton.sass --outFile css/skeleton.css",
-    "pre-push": "npm run build",
+    "prestart": "npm run build-sass",
     "start": "npm run build-sass -- --watch"
   }
 }

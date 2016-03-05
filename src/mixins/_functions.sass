@@ -1,0 +1,6 @@
+
+@function get-grid-column-width($n)
+  @return $column-width * $n - $column-margin * ($total-columns - $n) / $total-columns
+
+@function get-grid-offset-length($n)
+  @return get-grid-column-width($n) + $column-margin

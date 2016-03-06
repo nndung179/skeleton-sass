@@ -2,7 +2,7 @@
 Skeleton-Sass is the unofficial Sass version of framework Skeleton of [Dave Gamache](https://twitter.com/dhg) and it is followed Sass syntax. Currently, It has all feature of Skeleton v2.0.4.
 
 # Introduction
-Skeleton is a simple and lightweight framework. For more information, please go to:  [enter link description here](http://getskeleton.com/)
+Skeleton is a simple and lightweight framework. For more information, please go to:  [Skeleton Lightweight Framework](http://getskeleton.com/)
 
 # Getting Started
 ## Install local dependency

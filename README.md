@@ -13,6 +13,7 @@ Skeleton is a simple and lightweight framework. For more information, please go 
  
 
 > npm install
+
 > npm start
 
 ## Structure of Project

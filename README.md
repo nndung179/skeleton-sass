@@ -17,7 +17,7 @@ Skeleton is a simple and lightweight framework. For more information, please go 
 
 ## Structure of Project
 
->skeleton-sass/
+skeleton-sass/
 
 ├── css/ (build folder)
 

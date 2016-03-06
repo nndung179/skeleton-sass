@@ -17,15 +17,26 @@ Skeleton is a simple and lightweight framework. For more information, please go 
 
 ## Structure of Project
 
-> skeleton-sass/
-├── css/ (build folder)
-│   └── skeleton.css (skeleton built from src folder)
+skeleton-sass/
+
+├── css/ (**build folder**)
+
+│   └── skeleton.css (**skeleton built from src folder**)
+
 ├── src/
-│   └── components (contains all components of origin skeleton.css)
-│   └── mixins (contains static function)
+
+│   └── components (**contains all components of origin skeleton.css**)
+
+│   └── mixins (**contains static function**)
+
 ├── template/
-│   └── skeleton.css (download from http://getskeleton.com/)
+
+│   └── skeleton.css (**download from** http://getskeleton.com/)
+
 ├── package.json
-├── skeleton.sass (bootstrap all *.sass)
+
+├── skeleton.sass (**bootstrap all *.sass**)
+
 ├── index.html
+
 └── README.md

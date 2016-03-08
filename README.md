@@ -1,5 +1,5 @@
-# Skeleton Sass
-Skeleton-Sass is the unofficial Sass version of framework Skeleton of [Dave Gamache](https://twitter.com/dhg) and it is followed Sass syntax. Currently, It has all feature of Skeleton v2.0.4.
+# Skeleton Sass Syntax
+Skeleton-Sass-Syntax is the unofficial Sass version of framework Skeleton of [Dave Gamache](https://twitter.com/dhg) and it is followed Sass syntax. Currently, It has all feature of Skeleton v2.0.4.
 
 # Introduction
 Skeleton is a simple and lightweight framework. For more information, please go to:  [enter link description here](http://getskeleton.com/)
@@ -9,7 +9,12 @@ Skeleton is a simple and lightweight framework. For more information, please go 
 
  - NodeJS: [nodejs link](https://nodejs.org/en/)
 
-## Install local dependency
+## Install
+
+> npm install skeleton-sass-syntax
+
+
+## Development - Install local dependency
 
  - Open terminal or cmd
  - cd to root folder of project that contains **package.json**

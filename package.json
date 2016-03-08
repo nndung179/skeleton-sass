@@ -2,7 +2,7 @@
   "name": "skeleton-sass-syntax",
   "version": "1.0.0",
   "description": "Transform skeleton.css to sass",
-  "main": "./css/skeleton.css",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nndung179/skeleton-sass.git"

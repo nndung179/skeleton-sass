@@ -9,7 +9,12 @@ Skeleton is a simple and lightweight framework. For more information, please go 
 
  - NodeJS: [nodejs link](https://nodejs.org/en/)
 
-## Install local dependency
+## Install
+
+> npm install skeleton-sass-syntax
+
+
+## Development - Install local dependency
 
  - Open terminal or cmd
  - cd to root folder of project that contains **package.json**

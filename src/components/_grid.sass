@@ -1,4 +1,4 @@
-@import variables
+@import ../common/variables
 @import ../mixins/devices
 @import ../mixins/functions
 
@@ -19,13 +19,13 @@
   box-sizing: border-box
 
 /* For devices larger than 400px */
-@include respond-to-larger-than-mobile
++respond-to-larger-than-mobile
   .container
     width: 85%
     padding: 0
 
 /* For devices larger than 550px */
-@include respond-to-larger-than-phablet
++respond-to-larger-than-phablet
   .container
     width: 80%
 

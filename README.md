@@ -35,9 +35,13 @@ skeleton-sass/
 
 ├── src/
 
+│   └── common (**contains common values using for all elements & components**)
+
 │   └── components (**contains all components of origin skeleton.css**)
 
 │   └── mixins (**contains static function**)
+
+│   └── modules (**contains third party lib with sass syntax**)
 
 ├── template/
 

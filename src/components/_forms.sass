@@ -1,4 +1,4 @@
-@import variables
+@import ../common/variables
 @import ../mixins/vendor_prefix
 
 
@@ -36,7 +36,7 @@ input[type="tel"],
 input[type="url"],
 input[type="password"],
 textarea
-  @include set-prefix((appearance: none), webkit moz)
+  +set-prefix((appearance: none), webkit moz)
 
 textarea
   min-height: 65px

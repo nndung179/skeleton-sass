@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/nndung179/skeleton-sass#readme",
   "devDependencies": {
-    "node-sass": "^3.4.2"
+    "autoprefixer": "^6.3.3",
+    "node-sass": "^3.4.2",
+    "postcss-cli": "^2.5.1"
   },
   "contributors": [
     {
@@ -28,6 +30,7 @@
     }
   ],
   "scripts": {
+    "autoprefix": "postcss --use autoprefixer --output css/skeleton.css css/skeleton.css",
     "clean": "rm -rf css",
     "build": "npm run clean && npm run build-sass",
     "build-sass": "node-sass --output-style expanded --source-map true --output css/ skeleton.sass --outFile css/skeleton.css",
